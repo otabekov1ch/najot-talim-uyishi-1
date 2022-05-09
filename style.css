@@ -1,0 +1,110 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 100px; 
+    background:  #d8d8d8;    
+}
+.container-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.title-div {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-top: 60px;
+}
+.title {
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: rgb(85, 85, 85);
+    padding-bottom: 25px;
+    text-align: center;
+    border-bottom: 1px solid gray; 
+    width: 160px;
+    
+}
+.card {
+    justify-content: space-between;
+    background-size: cover;
+    margin: 0 -60px;
+    width: 460px;
+    height: 280px;
+}
+.client {
+    display: flex;
+    justify-content: space-between;
+    color: white; 
+    margin: 30px 15px 0 15px ;
+    align-items: center;
+    
+}
+.client h5 {
+    font-weight: 400;
+    color:#FFFFFFB2;
+}
+.name {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+.first {
+    background-image: url("./images/IMAGE\ \(2\).png");
+
+}
+.card h2 {
+    margin: 150px 0 5px 15px;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+.card p {
+    color: rgba(236, 234, 234, 0.7);
+    margin: 0 0 15px 15px;
+    font-size: 14px;
+}
+.second {
+   background-image: url("./images/IMAGE.png");
+}
+.cardss {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 40px;
+    place-items: center;
+    margin: 0 80px 40px;
+}
+.cards {
+    background-color: white;
+    flex-wrap: wrap;
+}
+.cards-tittle {
+    padding-left: 5px;
+    max-width: 290px;
+    margin-top: 2px;
+    color: #101315;
+}
+.cards-tittle h4 {
+    font-size: 20px;
+    font-size: 16px;
+}
+.cards-tittle p {
+    margin: 15px 0 0 0;
+    font-size: 13px;
+}
+.cards .client {
+    margin: 10px 5px 2px 2px;
+    border-top: 1px solid gray;
+    padding-top: 5px;
+}
+.cards .client h5 {
+    color:  rgb(85, 85, 85) !important;
+}
+
+
